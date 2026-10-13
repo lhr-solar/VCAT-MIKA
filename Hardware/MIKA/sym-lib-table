@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CM5IO") (type "KiCad") (uri "${KIPRJMOD}/Symbols/CM5IO.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_connectors") (type "KiCad") (uri "${KIPRJMOD}/../KiCAD-Sharepoint/lhrs_connectors.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_ics") (type "KiCad") (uri "${KIPRJMOD}/../KiCAD-Sharepoint/lhrs_ics.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_misc") (type "KiCad") (uri "${KIPRJMOD}/../KiCAD-Sharepoint/lhrs_misc.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_power") (type "KiCad") (uri "${KIPRJMOD}/../KiCAD-Sharepoint/lhrs_power.kicad_sym") (options "") (descr ""))
+	(lib (name "lhrs_special") (type "KiCad") (uri "${KIPRJMOD}/../KiCAD-Sharepoint/lhrs_special.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS2557QDRBTQ1") (type "KiCad") (uri "${KIPRJMOD}/Symbols/TPS2557QDRBTQ1.kicad_sym") (options "") (descr ""))
+)
