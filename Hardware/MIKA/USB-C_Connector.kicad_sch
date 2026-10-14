@@ -2362,7 +2362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e4802a2-1696-4f84-a997-10989ac104a8")
-		(property "Reference" "R1"
+		(property "Reference" "R23"
 			(at 86.106 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,7 +2452,7 @@
 			)
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "R1")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2469,7 +2469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
-		(property "Reference" "R2"
+		(property "Reference" "R24"
 			(at 93.726 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +2559,7 @@
 			)
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "R2")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2577,7 +2577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c1c8b0-f199-43b5-8a72-395cd877a32e")
-		(property "Reference" "D3"
+		(property "Reference" "D8"
 			(at 82.55 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2685,7 +2685,7 @@
 			)
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "D3")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "721bfdbe-2222-45ee-88c4-a4f117ef21b0")
-		(property "Reference" "C?"
+		(property "Reference" "C38"
 			(at 27.94 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,8 +2713,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF"
-			(at 25.4 76.2 0)
+		(property "Value" "4.7n"
+			(at 26.67 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2766,7 +2766,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "C?")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -2783,7 +2783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "987afd31-82b8-438b-8d4d-9f51b541eace")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 21.59 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +2847,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2865,7 +2865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1333329-f4e2-40f5-9812-35a41f66040e")
-		(property "Reference" "J1"
+		(property "Reference" "J12"
 			(at 35.56 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +3009,7 @@
 			)
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "J1")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da76b70d-1d08-42fa-9779-e2d100318d24")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 59.69 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,7 +3201,7 @@
 			)
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3218,7 +3218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c3dd7f-84ec-4dcb-899f-0b4a41d3690f")
-		(property "Reference" "C1"
+		(property "Reference" "C39"
 			(at 64.3128 37.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3310,7 @@
 			)
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7dc4223e-0f41-465d-891f-db8b5b137845"
-					(reference "C1")
+					(reference "C39")
 					(unit 1)
 				)
 			)

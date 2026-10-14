@@ -1806,7 +1806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 91.8972 59.563 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,17 +1861,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 88.9 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cdea4d5c-14cc-422b-b60c-9f4ffab73794")
 		)
@@ -1880,12 +1869,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/bbd4617a-c7a2-42c0-8202-948d9fb46b7b"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/b25c6fa0-ff35-478e-9151-e00f6f5c12b7"
 					(reference "C4")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C4")
 					(unit 1)
@@ -1976,12 +1965,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/bbd4617a-c7a2-42c0-8202-948d9fb46b7b"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/b25c6fa0-ff35-478e-9151-e00f6f5c12b7"
 					(reference "R1")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "R1")
 					(unit 1)
@@ -2011,7 +2000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 24.5872 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,17 +2055,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 21.59 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "15e06278-345c-4cda-89aa-1c631a524a93")
 		)
@@ -2085,12 +2063,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/bbd4617a-c7a2-42c0-8202-948d9fb46b7b"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/b25c6fa0-ff35-478e-9151-e00f6f5c12b7"
 					(reference "C1")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C1")
 					(unit 1)
@@ -2164,54 +2142,6 @@
 				)
 			)
 		)
-		(property "PARTREV" "A"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 60.96 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "P/N" "TPS2117DRLR"
 			(at 60.96 49.53 0)
 			(show_name no)
@@ -2248,12 +2178,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/bbd4617a-c7a2-42c0-8202-948d9fb46b7b"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/b25c6fa0-ff35-478e-9151-e00f6f5c12b7"
 					(reference "U1")
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "U1")
 					(unit 1)
@@ -2283,7 +2213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 42.3672 69.723 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,17 +2268,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 39.37 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e41339b2-0b78-4afa-a522-54a4100e50d6")
 		)
@@ -2357,12 +2276,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/bbd4617a-c7a2-42c0-8202-948d9fb46b7b"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/b25c6fa0-ff35-478e-9151-e00f6f5c12b7"
 					(reference "C3")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C3")
 					(unit 1)
@@ -2392,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 38.5572 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2447,17 +2366,6 @@
 				)
 			)
 		)
-		(property "Mfg" "MLASH168SB7104KTNA01"
-			(at 35.56 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8a22e724-4c34-405a-838f-8e503fe5692a")
 		)
@@ -2466,12 +2374,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/bbd4617a-c7a2-42c0-8202-948d9fb46b7b"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/b25c6fa0-ff35-478e-9151-e00f6f5c12b7"
 					(reference "C2")
 					(unit 1)
 				)
 			)
-			(project "power-mux-block"
+			(project "Power_Mux"
 				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
 					(reference "C2")
 					(unit 1)

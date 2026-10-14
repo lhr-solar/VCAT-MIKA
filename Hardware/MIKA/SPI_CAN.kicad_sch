@@ -2156,12 +2156,6 @@
 		(uuid "d847d78a-fcf2-46f4-b4bd-db5f71dabfef")
 	)
 	(junction
-		(at 137.16 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef45cce4-689a-4a5e-922f-651f9cda75b0")
-	)
-	(junction
 		(at 88.9 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2172,6 +2166,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f84089ed-4473-4efc-aa17-d2a76fd4022e")
+	)
+	(junction
+		(at 137.795 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc89f39-90bb-4941-b38a-9f0f785d1910")
 	)
 	(no_connect
 		(at 127 60.96)
@@ -2403,23 +2403,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 135.89 143.51)
+			(xy 137.795 144.78) (xy 136.525 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0fbabe26-4c6f-4346-85e3-d81cf1a8cbc6")
-	)
-	(wire
-		(pts
-			(xy 137.16 148.59) (xy 139.7 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10872ddf-690d-418f-9f7f-e79170efa140")
 	)
 	(wire
 		(pts
@@ -2430,16 +2420,6 @@
 			(type default)
 		)
 		(uuid "1316251c-0178-45f0-adbc-29841a0e39dd")
-	)
-	(wire
-		(pts
-			(xy 181.61 114.3) (xy 182.88 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149ae76c-11f9-426a-9572-d185a7964e68")
 	)
 	(wire
 		(pts
@@ -2703,6 +2683,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.795 148.59) (xy 139.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a58d8b-73b4-40ad-944b-1fed170363ff")
+	)
+	(wire
+		(pts
 			(xy 97.79 135.89) (xy 102.87 135.89)
 		)
 		(stroke
@@ -2710,6 +2700,16 @@
 			(type default)
 		)
 		(uuid "3974c6a4-4943-4188-9e0c-571390509a07")
+	)
+	(wire
+		(pts
+			(xy 182.88 104.14) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c5f6b6-f780-45fb-8d88-371c6ad8913a")
 	)
 	(wire
 		(pts
@@ -2730,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "3d0d43d1-7bab-43c8-a934-e79bd37b5754")
+	)
+	(wire
+		(pts
+			(xy 182.88 105.41) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d92cc9b-d84e-47ce-a4ac-198f057e2df7")
 	)
 	(wire
 		(pts
@@ -2843,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 148.59) (xy 137.16 144.78)
+			(xy 137.795 148.59) (xy 137.795 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2900,16 +2910,6 @@
 			(type default)
 		)
 		(uuid "5a486f79-c8b2-49a0-8b2a-9b5da94a9b1d")
-	)
-	(wire
-		(pts
-			(xy 181.61 102.87) (xy 182.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc67393-b3c4-447f-9644-6192f9d16830")
 	)
 	(wire
 		(pts
@@ -2970,6 +2970,16 @@
 			(type default)
 		)
 		(uuid "6caa7c26-18b9-45c6-a1b6-eb9929a6a339")
+	)
+	(wire
+		(pts
+			(xy 181.61 114.3) (xy 182.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d074669-8866-454e-a802-ccd6c30fc6c3")
 	)
 	(wire
 		(pts
@@ -3083,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 148.59) (xy 137.16 148.59)
+			(xy 135.89 148.59) (xy 137.795 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3553,7 +3563,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 143.51) (xy 135.89 143.51)
+			(xy 127 143.51) (xy 136.525 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8331,164 +8341,6 @@
 		(uuid "f37422f3-9c4a-47ca-8edc-8426c6559a96")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 182.88 107.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "013476cd-f717-4ce7-ae95-075f3f50118b")
-		(property "Reference" "C?"
-			(at 181.356 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 180.086 110.236 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.9148 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "413762d7-8d54-458c-8ecd-18d6682006dd")
-		)
-		(pin "2"
-			(uuid "a2f7e893-d5c1-463a-bf86-c5ba8f5225a2")
-		)
-		(instances
-			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03a94f45-09ac-421c-86fb-fbdb8603c25e")
-		(property "Reference" "C?"
-			(at 130.81 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 132.715 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 100.6348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08662463-9f92-4864-949a-09a0461d5dc4")
-		)
-		(pin "2"
-			(uuid "385a9e3d-2352-4c48-b380-a10646e9662d")
-		)
-		(instances
-			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 102.87 64.77 270)
 		(unit 1)
@@ -8499,7 +8351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09ddad1d-8133-43ae-9c50-920097b51bc3")
-		(property "Reference" "Y?"
+		(property "Reference" "Y1"
 			(at 106.68 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8603,7 +8455,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "Y?")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -8620,7 +8472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13da60ac-17a7-4408-9be2-af0828f65edd")
-		(property "Reference" "R?"
+		(property "Reference" "R16"
 			(at 113.03 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,7 +8534,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8699,8 +8551,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14ead355-f466-4a0e-a60d-5cf3c20a4c4f")
-		(property "Reference" "C?"
-			(at 134.62 147.32 90)
+		(property "Reference" "C29"
+			(at 135.255 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8709,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Value" "300nF"
+		(property "Value" "300n"
 			(at 136.525 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,7 +8613,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -8778,7 +8630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "181c739f-1bbb-4723-b69b-8d6e51046d34")
-		(property "Reference" "J?"
+		(property "Reference" "J11"
 			(at 236.22 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8859,165 +8711,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a0a2c57-9fca-467a-b44e-108a2ff607ae")
-		(property "Reference" "C?"
-			(at 130.81 25.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 132.715 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 25.7048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40b47ea9-8855-4be4-9e5b-e2cb8292413c")
-		)
-		(pin "2"
-			(uuid "5be1a483-a327-484d-8176-478bc8d37443")
-		)
-		(instances
-			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 166.37 109.22 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "204619db-e9c2-48cf-b3e4-f561f797235f")
-		(property "Reference" "C?"
-			(at 164.846 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 163.576 111.506 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.4048 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 166.37 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32d0c8d6-6525-4484-9cd8-36edd23ffc9c")
-		)
-		(pin "2"
-			(uuid "cda50411-b797-4b24-b7c4-2bc190c803b2")
-		)
-		(instances
-			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9034,8 +8728,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39e1cc95-bec6-415a-9590-b9a0c404ca1a")
-		(property "Reference" "C?"
-			(at 134.62 72.39 90)
+		(property "Reference" "C28"
+			(at 128.905 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9044,8 +8738,8 @@
 				)
 			)
 		)
-		(property "Value" "300nF"
-			(at 136.525 74.93 90)
+		(property "Value" "300n"
+			(at 135.89 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9096,7 +8790,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9114,7 +8808,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3b084982-3432-49ee-99ac-55862188bd89")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 204.47 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +8870,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9193,7 +8887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d133938-45dd-497b-a2ff-45af28d2297f")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 120.65 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9012,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9335,8 +9029,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d8e75f4-cfae-40e5-9268-a5ff5f2f5064")
-		(property "Reference" "C?"
-			(at 181.356 32.004 0)
+		(property "Reference" "C36"
+			(at 180.34 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9345,7 +9039,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 180.086 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9397,86 +9091,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 176.53 109.22 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3dc16830-61c6-4874-b57f-46814669ce55")
-		(property "Reference" "C?"
-			(at 175.006 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 173.99 111.506 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.5648 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53f0a4f4-92a8-4f94-bff4-c66858b90ef6")
-		)
-		(pin "2"
-			(uuid "5f5d21e0-27f3-4cb9-a1b1-4f7576d66bb0")
-		)
-		(instances
-			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -9493,7 +9108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41d344cd-b28f-4676-a7e2-783a9efaf159")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 101.6 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9566,7 +9181,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47f59033-7923-4728-a4a9-0cf28f87d2cf")
-		(property "Reference" "F?"
+		(property "Reference" "F6"
 			(at 185.42 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9646,7 +9261,165 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "F?")
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48e01a30-9493-4439-9382-44a3bcd1a57a")
+		(property "Reference" "C?"
+			(at 130.81 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 132.08 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 27.6352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0905188-ca1f-4060-9fd2-2ab67706998b")
+		)
+		(pin "2"
+			(uuid "61cea51e-ac60-4df5-a291-56327ac0e0eb")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49aedc1c-f4da-42cb-b4ee-33822ec03c70")
+		(property "Reference" "C?"
+			(at 164.846 106.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 163.576 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.4048 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d13ab8b2-0cc8-43eb-8e81-aad781e4e427")
+		)
+		(pin "2"
+			(uuid "0a6d6c1e-4899-429b-b96f-c89397e319ad")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9664,8 +9437,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4df97e27-87d0-43e8-ad1a-a8aa146bdbad")
-		(property "Reference" "C?"
-			(at 96.52 62.23 90)
+		(property "Reference" "C22"
+			(at 90.17 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9674,8 +9447,8 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
-			(at 97.79 59.69 90)
+		(property "Value" "10p"
+			(at 97.155 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9726,6 +9499,85 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a378e2f-8666-4943-97e2-45abca8fcb13")
+		(property "Reference" "C?"
+			(at 181.356 106.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 180.086 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.9148 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00f2553b-fdf6-47ad-9ee5-272818be08ab")
+		)
+		(pin "2"
+			(uuid "a4794485-aeef-4950-a11e-4517d5bba04b")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
 					(reference "C?")
 					(unit 1)
 				)
@@ -9743,8 +9595,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fb6339e-173d-4e02-b806-dcd5cc070388")
-		(property "Reference" "C?"
-			(at 175.006 32.004 0)
+		(property "Reference" "C34"
+			(at 173.99 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9805,7 +9657,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9822,7 +9674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a1ccb1b-2469-410b-941b-26e4a1c922dc")
-		(property "Reference" "J?"
+		(property "Reference" "J6"
 			(at 177.8 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9906,7 +9758,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "J?")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9923,7 +9775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74f668cf-b288-4ab9-86d5-f00f004d31bc")
-		(property "Reference" "J?"
+		(property "Reference" "J7"
 			(at 177.8 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,7 +9853,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "J?")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10018,8 +9870,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a1d532a-8625-45c1-a11c-c12e7ab253dc")
-		(property "Reference" "C?"
-			(at 96.52 142.24 90)
+		(property "Reference" "C25"
+			(at 90.805 145.415 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10028,7 +9880,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10p"
 			(at 97.79 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,7 +9932,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10097,8 +9949,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91b509af-732a-4f50-aaa9-16131b2c9b59")
-		(property "Reference" "C?"
-			(at 157.226 32.004 0)
+		(property "Reference" "C30"
+			(at 156.21 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10107,7 +9959,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 156.21 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10159,6 +10011,85 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92e4adee-21b3-4b71-aff0-b580d5cab555")
+		(property "Reference" "C?"
+			(at 173.99 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 173.99 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.5648 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1da26529-7c6b-4bff-b8b8-5833ea88b569")
+		)
+		(pin "2"
+			(uuid "18af5e75-d16f-4998-9c3b-3c5a6beb5bcf")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
 					(reference "C?")
 					(unit 1)
 				)
@@ -10177,7 +10108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a8b1f17-d2b8-4a61-a6dd-f901ba76e6d2")
-		(property "Reference" "J?"
+		(property "Reference" "J9"
 			(at 193.04 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10261,7 +10192,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "J?")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10278,7 +10209,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9cabc96a-b8b7-4dd1-b965-1688c74217df")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 166.37 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10340,7 +10271,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10357,8 +10288,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0247777-62b6-47b5-919e-7eb156502dde")
-		(property "Reference" "C?"
-			(at 164.846 32.004 0)
+		(property "Reference" "C32"
+			(at 163.83 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10367,7 +10298,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 163.576 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,7 +10350,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -10436,7 +10367,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a1add255-50a6-4e37-b092-8bc5363ba2ec")
-		(property "Reference" "R?"
+		(property "Reference" "R18"
 			(at 166.37 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10498,7 +10429,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10516,7 +10447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a54023b8-dc47-4851-a633-97d9b1ab21d5")
-		(property "Reference" "J?"
+		(property "Reference" "J8"
 			(at 193.04 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10594,7 +10525,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "J?")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10611,7 +10542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a572108c-7b80-477f-8de4-a66578af3daf")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 120.65 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,7 +10667,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10744,7 +10675,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 109.22 180)
+		(at 128.27 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10752,9 +10683,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ad755e83-4304-4133-965b-b2ed2ab9c156")
+		(uuid "bed19436-71fb-46a6-aef6-98759d4557a5")
 		(property "Reference" "C?"
-			(at 157.226 106.934 0)
+			(at 130.81 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10763,8 +10694,8 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
-			(at 156.21 111.506 0)
+		(property "Value" "0.1u"
+			(at 131.445 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10774,7 +10705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.7848 105.41 0)
+			(at 124.46 102.5652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +10716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 109.22 0)
+			(at 128.27 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +10727,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 109.22 0)
+			(at 128.27 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,10 +10738,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "adcf4ec4-3ba5-42ba-86aa-5c38aa96ff7c")
+			(uuid "6315fabc-c585-42af-a550-3b331eabfa71")
 		)
 		(pin "2"
-			(uuid "ef8deb7e-8058-4de0-b64c-c3519a90f852")
+			(uuid "20ec1719-f0b9-476a-b703-c3efa0e508ef")
 		)
 		(instances
 			(project "MIKA"
@@ -10833,8 +10764,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c154e401-8d1d-4f21-9821-5e9b92dee6b2")
-		(property "Reference" "C?"
-			(at 96.52 137.16 90)
+		(property "Reference" "C24"
+			(at 90.805 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10843,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10p"
 			(at 97.79 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10895,6 +10826,85 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c27d34a2-8211-46a1-8553-8ab5fa0f7c03")
+		(property "Reference" "C?"
+			(at 156.21 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 156.21 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.7848 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "decc126e-85c4-4f9f-add7-f0cec0de6e9f")
+		)
+		(pin "2"
+			(uuid "4c15f38a-3e60-4203-98ee-782351f8dbdc")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
 					(reference "C?")
 					(unit 1)
 				)
@@ -10913,7 +10923,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c67a59cf-b70e-4adb-93d8-0f4590b97845")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 204.47 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10975,7 +10985,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10992,7 +11002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d641ca9e-8e79-4128-aa26-ba6b23287012")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 113.03 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11054,7 +11064,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11071,8 +11081,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd113273-dbd8-4132-97db-c30c8f1533c4")
-		(property "Reference" "C?"
-			(at 96.52 67.31 90)
+		(property "Reference" "C23"
+			(at 90.805 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11081,8 +11091,8 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
-			(at 97.79 69.85 90)
+		(property "Value" "10p"
+			(at 97.155 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11133,7 +11143,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "C?")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11150,7 +11160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5d40557-e3fc-4fec-9d7e-c40ca6a85fb8")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 101.6 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11223,7 +11233,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11240,7 +11250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f00751af-8fe1-4340-a043-2dbcd388d34f")
-		(property "Reference" "Y?"
+		(property "Reference" "Y2"
 			(at 106.68 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11333,7 +11343,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "Y?")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -11350,7 +11360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f637527b-82aa-4362-ab3e-5768fd42939d")
-		(property "Reference" "J?"
+		(property "Reference" "J10"
 			(at 233.68 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11431,7 +11441,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/4b20a373-3163-488b-831b-4753c4a3b1c6"
-					(reference "J?")
+					(reference "J10")
 					(unit 1)
 				)
 			)

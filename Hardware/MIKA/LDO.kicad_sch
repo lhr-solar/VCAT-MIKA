@@ -5,129 +5,6 @@
 	(uuid "8ff43370-8d10-4d2c-b1a3-81d1c2934a98")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1035,7 +912,7 @@
 		)
 		(column_widths 29.845 10.795 11.43 11.43 8.255)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
-		(uuid "67eebf57-1530-48ae-9e7f-7387ab0a5f4b")
+		(uuid "858dd052-237d-4253-84bc-3de2cb6e426a")
 		(cells
 			(table_cell "Parameters"
 				(exclude_from_sim no)
@@ -2019,7 +1896,7 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/421a1379-c78c-42f6-9fc8-461b68b34a58"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/6266d390-2083-414f-a42d-e56179021e06"
 					(reference "C2")
 					(unit 1)
 				)
@@ -2033,128 +1910,6 @@
 			(project "LeaderSOMBreakout"
 				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
-		(property "Reference" "TP_3.3V1"
-			(at 166.624 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 164.084 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "If" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01c67387-58e5-48ff-81a2-8ef93a58300b")
-		)
-		(instances
-			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/421a1379-c78c-42f6-9fc8-461b68b34a58"
-					(reference "TP_3.3V1")
-					(unit 1)
-				)
-			)
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "TP_3.3V1")
 					(unit 1)
 				)
 			)
@@ -2258,17 +2013,6 @@
 				)
 			)
 		)
-		(property "LCSC MFG P/N" "LM39100S-3.3"
-			(at 152.4 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3fcec839-284c-4ea8-a79f-01c06ecb6999")
 		)
@@ -2280,12 +2024,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/421a1379-c78c-42f6-9fc8-461b68b34a58"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/6266d390-2083-414f-a42d-e56179021e06"
 					(reference "U1")
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "LDO"
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
 					(reference "U1")
 					(unit 1)
@@ -2410,12 +2154,12 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/421a1379-c78c-42f6-9fc8-461b68b34a58"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/6266d390-2083-414f-a42d-e56179021e06"
 					(reference "D1")
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "LDO"
 				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
 					(reference "D1")
 					(unit 1)
@@ -2520,7 +2264,7 @@
 		)
 		(instances
 			(project "MIKA"
-				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/421a1379-c78c-42f6-9fc8-461b68b34a58"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3/6266d390-2083-414f-a42d-e56179021e06"
 					(reference "C1")
 					(unit 1)
 				)

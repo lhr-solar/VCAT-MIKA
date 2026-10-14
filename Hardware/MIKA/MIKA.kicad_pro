@@ -718,7 +718,7 @@
         "uuid": "66ea9e27-3ca5-4edd-a0db-1f3995e73e78"
       }
     ],
-    "used_designators": "#PWR1-20,#FLG5",
+    "used_designators": "#PWR1-20,D1-10,R1-33,#FLG1-5,IC1-3,J1-15,C1-46,FB1-2,F1-6,JP1-5,L1,Module1,Q1-2,SW1-2,TP1-4,TP_3.3V1,U1-13,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -735,15 +735,15 @@
       "Power Regulation"
     ],
     [
-      "77edfde6-c89b-445e-95e4-9eff45b62586",
+      "59f3a675-0ec5-407b-bb19-7d9a2c9c96aa",
       "PowerProtection"
     ],
     [
-      "22369d36-6894-464e-bfc2-a9ebbc04dbbe",
+      "01964f3c-88c3-4b63-99fd-3a81a8ef698d",
       "12VBuck"
     ],
     [
-      "bbd4617a-c7a2-42c0-8202-948d9fb46b7b",
+      "b25c6fa0-ff35-478e-9151-e00f6f5c12b7",
       "Power_Mux"
     ],
     [
@@ -751,7 +751,7 @@
       "CM5 GPIO"
     ],
     [
-      "421a1379-c78c-42f6-9fc8-461b68b34a58",
+      "6266d390-2083-414f-a42d-e56179021e06",
       "LDO"
     ],
     [

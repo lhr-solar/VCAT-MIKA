@@ -5945,7 +5945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9eef309-3614-4158-a5dc-14a6b70ea731")
-		(property "Reference" "Module?"
+		(property "Reference" "Module1"
 			(at 86.36 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +6621,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959"
-					(reference "Module?")
+					(reference "Module1")
 					(unit 2)
 				)
 			)
