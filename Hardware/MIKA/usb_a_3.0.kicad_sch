@@ -2707,6 +2707,16 @@
 		)
 		(uuid "340c6edf-8d1a-4032-bd29-7fbc9938aece")
 	)
+	(text "add desmos math 4 ravi"
+		(exclude_from_sim no)
+		(at 74.295 56.515 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ff4f3f0-5c4b-47f9-978b-c16c9d5cbb83")
+	)
 	(text "USB-A Current Limiting"
 		(exclude_from_sim no)
 		(at 38.1 17.78 0)
@@ -3010,6 +3020,16 @@
 			(type default)
 		)
 		(uuid "31828781-1339-4145-b851-ae0056d9f853")
+	)
+	(wire
+		(pts
+			(xy 66.04 106.68) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331b82ae-855d-491b-84f0-b661417a325f")
 	)
 	(wire
 		(pts
@@ -3373,16 +3393,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 66.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe3d200-376a-4407-b1ab-f66e719ad72b")
-	)
-	(wire
-		(pts
 			(xy 152.4 31.75) (xy 152.4 41.91)
 		)
 		(stroke
@@ -3400,6 +3410,16 @@
 			(type default)
 		)
 		(uuid "d5da437a-0412-4a9b-98d0-b60ac7eec29b")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66dc4fc-446f-4336-9527-46b7803dec25")
 	)
 	(wire
 		(pts
@@ -3511,18 +3531,8 @@
 		)
 		(uuid "fd21e162-8c05-48d6-be7b-dbfcec53516b")
 	)
-	(wire
-		(pts
-			(xy 80.01 111.76) (xy 66.04 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4ef4b2-e3c3-4ed4-b2c2-b9b3fac8451c")
-	)
 	(image
-		(at 87.63 45.72)
+		(at 88.265 45.72)
 		(scale 0.319188)
 		(uuid "5f82984a-3f99-4d08-ae1c-b330ff98711e")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAioAAAEtCAYAAAAm3UuWAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -3959,28 +3969,6 @@
 			"IluUqBBCCCFEtv4HsfEjkpW3uT0AAAAASUVORK5CYII="
 		)
 	)
-	(label "USB_HUB_D-"
-		(at 26.67 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "00d7c3fe-70da-496b-b67a-ef0788ffd39d")
-	)
-	(label "USB_HUB_D+"
-		(at 26.67 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ee21275-4a29-4ef9-bb6d-e5397f52496c")
-	)
 	(label "USB3-0-D_P"
 		(at 140.97 50.8 0)
 		(effects
@@ -4003,18 +3991,7 @@
 		)
 		(uuid "2816984a-25c8-44ce-9093-c7a460781be2")
 	)
-	(label "USB_HUB_RX+"
-		(at 80.01 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right bottom)
-		)
-		(uuid "28a42afc-afe9-4c7b-8916-6422a4bd83e5")
-	)
-	(label "USB_HUB_TX+"
+	(label "USB3-0-TX_P"
 		(at 80.01 106.68 180)
 		(effects
 			(font
@@ -4023,7 +4000,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "28b61a20-cc12-411a-ab99-bc2a4e98f5bc")
+		(uuid "45fea144-ea30-435b-bf57-b193aba31457")
 	)
 	(label "USB3-0-RX_P"
 		(at 140.97 58.42 0)
@@ -4035,17 +4012,6 @@
 			(justify left bottom)
 		)
 		(uuid "4aa68990-bb6e-424d-a3e0-130d55774558")
-	)
-	(label "USB_HUB_RX-"
-		(at 80.01 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b3efd89-08f5-41ba-9755-41c1a1294591")
 	)
 	(label "USB3-0-D_N"
 		(at 140.97 48.26 0)
@@ -4068,6 +4034,39 @@
 		)
 		(uuid "7c1c07aa-6ef6-4ca8-bdcf-a6c19332a053")
 	)
+	(label "USB3-0-D_P"
+		(at 26.67 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "84edbb8e-2a5c-4791-95a3-eee17bf3a717")
+	)
+	(label "USB3-0-RX_N"
+		(at 80.01 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c453365-503b-4b7d-b38b-18461ab15f50")
+	)
+	(label "USB3-0-TX_N"
+		(at 80.01 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "bca2ca78-a12d-4b08-affb-691dbd276161")
+	)
 	(label "USB3-0-RX_N"
 		(at 140.97 55.88 0)
 		(effects
@@ -4089,6 +4088,17 @@
 		)
 		(uuid "bd379f74-e607-4a3d-9eb2-1fb3c362ec4f")
 	)
+	(label "USB3-0-D_N"
+		(at 26.67 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2637a4e-5286-4b0a-b35f-640b8f9ed389")
+	)
 	(label "USB3-0-TX_N"
 		(at 140.97 63.5 0)
 		(effects
@@ -4100,8 +4110,8 @@
 		)
 		(uuid "eee58190-6776-4989-a80c-6eb54f34d882")
 	)
-	(label "USB_HUB_TX-"
-		(at 80.01 111.76 180)
+	(label "USB3-0-RX_P"
+		(at 80.01 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4109,7 +4119,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fd21d92b-03a0-40da-88e6-58667525990b")
+		(uuid "f86d5c3f-a2ba-41d2-a2cd-955b0513af62")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -4259,7 +4269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04d0cbcc-7a4f-469b-a5be-8e339f10b579")
-		(property "Reference" "J14"
+		(property "Reference" "J15"
 			(at 167.64 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4355,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "J14")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc2fc6c-9185-412a-aae7-c3a35d246838")
-		(property "Reference" "IC3"
+		(property "Reference" "IC5"
 			(at 60.96 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4599,7 +4609,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "IC3")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -4616,8 +4626,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "387c475a-208e-4c3f-8a9e-28415912599f")
-		(property "Reference" "R28"
-			(at 73.66 43.18 0)
+		(property "Reference" "R51"
+			(at 73.025 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4680,7 +4690,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "R28")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "436cc9cf-23ca-4634-8c45-36752d957dde")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 53.34 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4797,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4805,7 +4815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f2bcd0b-ec88-456e-afd4-2cfd42064132")
-		(property "Reference" "D10"
+		(property "Reference" "D21"
 			(at 83.82 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +4891,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "D10")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -4898,7 +4908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54357b27-8936-4b8f-b9bc-ee4dfca30690")
-		(property "Reference" "C?"
+		(property "Reference" "C49"
 			(at 147.955 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4960,7 +4970,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "C?")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4977,7 +4987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afc89f66-de92-4164-8ffb-69fe29f547c5")
-		(property "Reference" "C?"
+		(property "Reference" "C48"
 			(at 40.64 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +5049,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "C?")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b476d9bc-0237-4334-a15b-cb20ae18c887")
-		(property "Reference" "C45"
+		(property "Reference" "C50"
 			(at 176.53 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5121,7 +5131,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "C45")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -5138,7 +5148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc3953ed-521c-4162-aa38-3b23a376c72e")
-		(property "Reference" "U12"
+		(property "Reference" "U10"
 			(at 138.43 33.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5205,7 +5215,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "U12")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5223,7 +5233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded90768-da5a-4da3-8cb5-fc196acca774")
-		(property "Reference" "U10"
+		(property "Reference" "U8"
 			(at 53.34 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5312,7 +5322,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "U10")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5329,7 +5339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6e7520a-591a-43c5-a0b1-c49ebdb70439")
-		(property "Reference" "R29"
+		(property "Reference" "R52"
 			(at 91.44 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5401,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "R29")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9b6f7f3-de0e-407d-85f0-02877c4a4d0a")
-		(property "Reference" "R30"
+		(property "Reference" "R53"
 			(at 182.88 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5473,7 +5483,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/7a043766-a0c2-4407-9464-91c0fba921a3"
-					(reference "R30")
+					(reference "R53")
 					(unit 1)
 				)
 			)

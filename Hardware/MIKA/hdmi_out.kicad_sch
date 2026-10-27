@@ -2688,6 +2688,16 @@
 		)
 		(uuid "5de081a9-c5f8-426f-b8c8-db2c91dfc88c")
 	)
+	(text "add desmos math 4 ravi"
+		(exclude_from_sim no)
+		(at 84.455 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d478de08-3cbc-4342-a0c7-93eee31cf779")
+	)
 	(text "Ilim: ~500mA"
 		(exclude_from_sim no)
 		(at 80.01 57.15 0)
@@ -4749,8 +4759,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15f0b25a-0ec9-4631-9620-92b0613bedef")
-		(property "Reference" "R25"
-			(at 83.82 49.53 0)
+		(property "Reference" "R48"
+			(at 83.185 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4813,7 +4823,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "R25")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4831,7 +4841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33b1f9a8-79a7-4c27-b096-35e000f251cc")
-		(property "Reference" "C?"
+		(property "Reference" "C45"
 			(at 50.165 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,7 +4903,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "C?")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4911,7 +4921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a90a3a6-a27a-4581-9d01-4ba80486774a")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 74.93 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5000,7 +5010,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ecbc812-2bb5-4c39-b74f-656711f61de5")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 147.32 36.2584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,7 +5094,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5102,7 +5112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d9055c9-3210-4927-83a0-033524829c93")
-		(property "Reference" "D9"
+		(property "Reference" "D20"
 			(at 93.98 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5178,7 +5188,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "D9")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -5196,7 +5206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f10c19b-1492-4851-af85-f16b078fc738")
-		(property "Reference" "IC2"
+		(property "Reference" "IC4"
 			(at 71.12 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5351,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "IC2")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -5358,7 +5368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "785eb136-b088-48ee-a794-c09aea62475d")
-		(property "Reference" "R26"
+		(property "Reference" "R49"
 			(at 101.6 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5430,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "R26")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5437,7 +5447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83c934c2-65c1-450d-82d1-9b1e07b4a5a7")
-		(property "Reference" "R27"
+		(property "Reference" "R50"
 			(at 173.99 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5501,7 +5511,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "R27")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5610,7 +5620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b3c322c-281f-41c9-95b5-45539e181414")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 74.93 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,7 +5709,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5716,7 +5726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a42777a6-efc5-4f91-ae0c-0bbaed086ef6")
-		(property "Reference" "C41"
+		(property "Reference" "C46"
 			(at 157.48 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5778,7 +5788,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "C41")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5796,7 +5806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b323cf50-328f-4cc9-88d3-d1b049c2dce3")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 74.93 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5895,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5903,7 +5913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8a1839-e2c5-4757-9c76-0594d0035f6e")
-		(property "Reference" "J13"
+		(property "Reference" "J14"
 			(at 175.26 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6021,7 +6031,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "J13")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -6038,7 +6048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f041ff50-cca9-423a-8cc3-99568b33fbbe")
-		(property "Reference" "C42"
+		(property "Reference" "C47"
 			(at 179.07 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,7 +6112,7 @@
 		(instances
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/c2d6fcaf-19aa-4c33-838f-5e0ce95c1959/be6c36fa-6fd6-406f-a5ea-75fa261ef4c4"
-					(reference "C42")
+					(reference "C47")
 					(unit 1)
 				)
 			)

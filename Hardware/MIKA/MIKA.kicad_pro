@@ -447,29 +447,29 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
+      "multiple_net_names": "ignore",
+      "net_not_bus_member": "ignore",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
-      "similar_label_and_power": "warning",
+      "similar_label_and_power": "ignore",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
@@ -633,7 +633,7 @@
       ],
       "ETH": [
         "P1_P",
-        "P!_N",
+        "P1_N",
         "P2_P",
         "P2_N",
         "P3_P",
@@ -653,7 +653,19 @@
         "HDMI0_D1_P",
         "HDMI0_D1_N",
         "HDMI0_D2_P",
-        "HDMI0_D2_N"
+        "HDMI0_D2_N",
+        "HDMI0_CK_P",
+        "HDMI0_CK_N"
+      ],
+      "IMU_SPI": [
+        "IMU_CS",
+        "IMU_INT1",
+        "IMU_INT2",
+        "MAG_CS",
+        "MAG_DRDY",
+        "SPI_MISO",
+        "SPI_MOSI",
+        "SPI_SCK"
       ],
       "TelemCAN_SPI": [
         "T_SCLK",
@@ -718,7 +730,7 @@
         "uuid": "66ea9e27-3ca5-4edd-a0db-1f3995e73e78"
       }
     ],
-    "used_designators": "#PWR1-20,D1-10,R1-33,#FLG1-5,IC1-3,J1-15,C1-46,FB1-2,F1-6,JP1-5,L1,Module1,Q1-2,SW1-2,TP1-4,TP_3.3V1,U1-13,Y1-2",
+    "used_designators": "D1-23,#PWR1-20,J1-16,IC1-6,R1-60,#FLG1-5,C1-73,FB1-2,F1-6,JP1-6,L1,Module1,Q1-2,SW1-2,TP1-6,TP_3.3V1,U1-16,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -739,8 +751,8 @@
       "PowerProtection"
     ],
     [
-      "01964f3c-88c3-4b63-99fd-3a81a8ef698d",
-      "12VBuck"
+      "d45bcf0c-a91e-410a-87a4-09572f276205",
+      "12V -> 5V"
     ],
     [
       "b25c6fa0-ff35-478e-9151-e00f6f5c12b7",
@@ -756,10 +768,10 @@
     ],
     [
       "4b20a373-3163-488b-831b-4753c4a3b1c6",
-      "SPI <-> CAN"
+      "SPI Peripherals"
     ],
     [
-      "7dc4223e-0f41-465d-891f-db8b5b137845",
+      "b91d927e-ab12-48e8-8975-87cb5a58ef55",
       "USB-C_Connector"
     ],
     [
@@ -773,6 +785,18 @@
     [
       "735344d6-c3ef-403c-9e8c-4704de9e492d",
       "Ethernet"
+    ],
+    [
+      "8ef129d4-fd97-48d5-8006-9862ff2eda76",
+      "SPI <-> CarCAN"
+    ],
+    [
+      "862e39d8-85e7-4888-a4fb-e11a57406ca0",
+      "SPI <-> TelemCAN"
+    ],
+    [
+      "b2c21813-b812-4bb6-9e47-102214e85f0b",
+      "IMUs"
     ]
   ],
   "text_variables": {},

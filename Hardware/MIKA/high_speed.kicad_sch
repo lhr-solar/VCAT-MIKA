@@ -4368,6 +4368,15 @@
 		(uuid "94107626-f57b-4fa0-ab1b-fceccaae376e")
 	)
 	(bus_entry
+		(at 39.37 147.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa71776a-aa17-433f-bb3f-d354545b9a9c")
+	)
+	(bus_entry
 		(at 134.62 104.14)
 		(size 2.54 -2.54)
 		(stroke
@@ -5504,7 +5513,17 @@
 		)
 		(uuid "2bbaad91-a8f4-4541-8a26-4df35b1ceeae")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
+		(at 125.73 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f17a8d6-ee27-4f5e-9b9c-bb2e38f3cdd0")
+	)
+	(label "USB_D+"
 		(at 207.01 59.69 0)
 		(effects
 			(font
@@ -5513,16 +5532,6 @@
 			(justify left bottom)
 		)
 		(uuid "32ffcfe1-1698-4fa8-b0b6-0b6f6bcc0cad")
-	)
-	(label "USB_DN"
-		(at 125.73 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37e2abce-c8d0-4b3e-90bf-3dfeb5a226ad")
 	)
 	(label "USB3-0-RX_P"
 		(at 39.37 76.2 0)
@@ -5535,7 +5544,7 @@
 		)
 		(uuid "3f694f7f-b2b0-4caf-9898-3e9890056f9c")
 	)
-	(label "USB_DN"
+	(label "USB_D-"
 		(at 207.01 62.23 0)
 		(effects
 			(font
@@ -5639,16 +5648,6 @@
 		)
 		(uuid "8758e051-99c8-426e-9e1e-716e26635310")
 	)
-	(label "USB_DP"
-		(at 125.73 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99a016e8-c6fc-4c66-b6d9-1c1054d4aca3")
-	)
 	(label "HDMI0_D1_N"
 		(at 41.91 137.16 0)
 		(effects
@@ -5742,6 +5741,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce1422f9-d06a-4c0f-bc23-bcde1f79decc")
+	)
+	(label "USB_D-"
+		(at 125.73 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf57f51a-b7d6-4ac2-abd4-36ab403ea58e")
 	)
 	(label "CC2"
 		(at 254 62.23 180)
@@ -6811,7 +6820,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "7dc4223e-0f41-465d-891f-db8b5b137845")
+		(uuid "b91d927e-ab12-48e8-8975-87cb5a58ef55")
 		(property "Sheetname" "USB-C_Connector"
 			(at 217.17 51.3584 0)
 			(show_name no)
@@ -6836,7 +6845,7 @@
 			)
 		)
 		(property "Author" "Shuopu Wang"
-			(at 71.12 -81.28 0)
+			(at 0 0.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6847,7 +6856,7 @@
 			)
 		)
 		(property "Date Modified" "9/5/2026"
-			(at 71.12 -81.28 0)
+			(at 0 0.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +6868,7 @@
 		)
 		(pin "CC1" bidirectional
 			(at 242.57 58.42 0)
-			(uuid "4be96c3c-5537-4e90-9387-662c9681143f")
+			(uuid "460db698-cdf5-4b83-a023-9487befabd64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6878,7 @@
 		)
 		(pin "CC2" bidirectional
 			(at 242.57 62.23 0)
-			(uuid "20e9ddf1-2439-47ea-9817-3e2f1f4932a5")
+			(uuid "9f6fb4c3-607b-4c3b-abf5-efdc44a8ca17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6888,7 @@
 		)
 		(pin "GND" input
 			(at 242.57 66.04 0)
-			(uuid "b152b33b-211a-45b1-a7a7-45b6e5a8b896")
+			(uuid "5c584ade-b43f-4446-9886-1acf8cdf604f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6898,7 @@
 		)
 		(pin "USB_5V" output
 			(at 242.57 54.61 0)
-			(uuid "767f86d6-b2fd-436c-bd0d-051982adcc67")
+			(uuid "75bc68f8-cc3c-4892-8a55-d5dc2e59b40f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6908,7 @@
 		)
 		(pin "USB_D+" bidirectional
 			(at 217.17 59.69 180)
-			(uuid "170bab47-2835-49e7-8d99-d1625ee7af40")
+			(uuid "49427d6d-be4b-4251-a346-ed9b14a392ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6918,7 @@
 		)
 		(pin "USB_D-" bidirectional
 			(at 217.17 62.23 180)
-			(uuid "dc33a33f-f826-42f4-ab96-393ab509a267")
+			(uuid "4bba9b38-267e-4fbd-b062-57331a8748de")
 			(effects
 				(font
 					(size 1.27 1.27)
