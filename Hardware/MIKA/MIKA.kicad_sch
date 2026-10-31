@@ -271,16 +271,6 @@
 		)
 		(uuid "50b4176f-41f2-4b44-9996-063cbc0a1356")
 	)
-	(text "Rate my schematic: 66/67"
-		(exclude_from_sim no)
-		(at 106.68 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6a6b3231-9b03-4306-8fd3-c239b7206e0e")
-	)
 	(wire
 		(pts
 			(xy 161.29 63.5) (xy 162.56 63.5)

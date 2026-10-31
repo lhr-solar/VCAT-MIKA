@@ -1507,8 +1507,8 @@
 		(uuid "186174c5-e29e-4536-b8ce-5514d8b73636")
 	)
 	(rectangle
-		(start 26.67 90.17)
-		(end 67.31 118.11)
+		(start 26.67 102.87)
+		(end 67.31 130.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1520,7 +1520,7 @@
 	)
 	(rectangle
 		(start 26.67 67.945)
-		(end 73.66 82.55)
+		(end 76.835 100.965)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1586,6 +1586,18 @@
 		)
 		(uuid "4da23e06-e268-4535-b820-f2597f2c8964")
 	)
+	(text "total bulk cap < 1mF MAX (on all lines)"
+		(exclude_from_sim no)
+		(at 37.465 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "56bcafd2-0cce-43ac-967e-c3d28f97891a")
+	)
 	(text "Imax 300mA\n11 baords = ~3 A"
 		(exclude_from_sim no)
 		(at 77.47 36.83 0)
@@ -1618,9 +1630,9 @@
 		)
 		(uuid "a27d0ae4-ea36-4066-8423-4ff3df4ee97d")
 	)
-	(text "25W  ~4 A"
+	(text "25W  ~2.5 A"
 		(exclude_from_sim no)
-		(at 74.93 46.99 0)
+		(at 85.09 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1648,9 +1660,9 @@
 		)
 		(uuid "d1509c91-5a28-438d-b4da-761aa355573b")
 	)
-	(text "MIKA"
+	(text "FDCAN->SPI\n"
 		(exclude_from_sim no)
-		(at 102.87 48.26 0)
+		(at 105.41 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1662,7 +1674,13 @@
 		(uuid "fb3c83b1-ff5a-4d7e-b8bc-790ec9c25654")
 	)
 	(junction
-		(at 59.69 99.06)
+		(at 40.64 85.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01d60b46-bec1-44a5-80f1-7d54e0933432")
+	)
+	(junction
+		(at 59.69 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "056d8e7e-9252-4220-a587-9d55f5f88f61")
@@ -1752,10 +1770,22 @@
 		(uuid "a6a41911-1114-4588-9422-148ab4aeb2ab")
 	)
 	(junction
+		(at 61.595 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d3ae0b-b3ed-4651-8cc0-532c8acf1ff7")
+	)
+	(junction
 		(at 91.44 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8d35fb6-8cd3-4347-8f05-78b6c68cbe1f")
+	)
+	(junction
+		(at 40.64 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aec24a85-3dc3-42df-b2a8-0dbe1e2dd9ab")
 	)
 	(junction
 		(at 40.64 58.42)
@@ -1764,13 +1794,13 @@
 		(uuid "b3871bb6-e59d-44f1-8328-5477f8556290")
 	)
 	(junction
-		(at 59.69 109.22)
+		(at 59.69 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b563b252-43ca-413a-a410-a894f6397a1d")
 	)
 	(junction
-		(at 59.69 104.14)
+		(at 59.69 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7903548-0de9-4ce3-90a1-22f856034f35")
@@ -1817,13 +1847,29 @@
 		(color 0 0 0 0)
 		(uuid "f75c80be-9ed0-4090-b8c7-b0e96db075f8")
 	)
+	(junction
+		(at 61.595 85.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8455870-5717-42ab-876c-94579cdb32ae")
+	)
 	(no_connect
 		(at 167.64 62.23)
 		(uuid "d207e5be-42cd-44fa-a46b-7b5741db9041")
 	)
 	(wire
 		(pts
-			(xy 58.42 93.98) (xy 59.69 95.25)
+			(xy 33.02 94.615) (xy 34.29 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b59817-3cad-437b-b4d6-b14b32ee362b")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 59.69 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1840,6 +1886,16 @@
 			(type default)
 		)
 		(uuid "16485627-e938-4292-a870-8555d7031078")
+	)
+	(wire
+		(pts
+			(xy 53.975 94.615) (xy 55.245 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a2d053-a289-4871-824a-ad8c7a71cf14")
 	)
 	(wire
 		(pts
@@ -1873,13 +1929,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 93.98) (xy 40.64 93.98)
+			(xy 36.83 106.68) (xy 40.64 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1af4048f-147e-4f38-a1b8-48175f488ae2")
+	)
+	(wire
+		(pts
+			(xy 61.595 85.725) (xy 61.595 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2e603c-42d2-444a-936d-19acc14138c2")
 	)
 	(wire
 		(pts
@@ -1920,6 +1986,16 @@
 			(type default)
 		)
 		(uuid "21a3d29f-aef9-40f9-8425-4349917d586a")
+	)
+	(wire
+		(pts
+			(xy 48.26 85.725) (xy 40.64 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d894b6-b75f-4219-ab7d-310d35de0c11")
 	)
 	(wire
 		(pts
@@ -1983,6 +2059,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 95.885) (xy 64.135 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a8c6ba-e557-44c1-bcc3-74da895c1ada")
+	)
+	(wire
+		(pts
 			(xy 137.16 58.42) (xy 142.24 58.42)
 		)
 		(stroke
@@ -2013,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 109.22) (xy 40.64 109.22)
+			(xy 36.83 121.92) (xy 40.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2053,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 109.22) (xy 59.69 109.22)
+			(xy 57.15 121.92) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2143,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 109.22) (xy 49.53 109.22)
+			(xy 48.26 121.92) (xy 49.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2329,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 66.04) (xy 77.47 67.31)
+			(xy 34.29 95.885) (xy 40.64 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625c9d6b-1336-41a9-b938-7cd262807f1a")
+	)
+	(wire
+		(pts
+			(xy 76.2 64.77) (xy 77.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 93.98) (xy 49.53 93.98)
+			(xy 48.26 106.68) (xy 49.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 114.3) (xy 58.42 114.3)
+			(xy 57.15 127) (xy 58.42 127)
 		)
 		(stroke
 			(width 0)
@@ -2353,6 +2449,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 85.725) (xy 62.865 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3dbe9a-ebbe-44df-bf31-4aaf625fca68")
+	)
+	(wire
+		(pts
 			(xy 91.44 69.85) (xy 93.98 69.85)
 		)
 		(stroke
@@ -2363,7 +2469,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 99.06) (xy 59.69 99.06)
+			(xy 57.15 111.76) (xy 59.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2373,13 +2479,33 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 114.3) (xy 40.64 114.3)
+			(xy 34.29 85.725) (xy 40.64 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8224f2b0-44ec-45f4-ad46-b5a5ba768bc1")
+	)
+	(wire
+		(pts
+			(xy 36.83 127) (xy 40.64 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8749f265-c25a-432e-9390-162ae099aa94")
+	)
+	(wire
+		(pts
+			(xy 55.245 85.725) (xy 61.595 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88baabd7-6a53-46f4-af3c-524965457bab")
 	)
 	(wire
 		(pts
@@ -2443,7 +2569,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 59.69 104.14)
+			(xy 59.69 111.76) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2453,17 +2579,37 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 64.77) (xy 76.2 66.04)
+			(xy 40.64 94.615) (xy 40.64 95.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "999080da-0276-430c-a35c-277c8501ec77")
+		(uuid "98c7ff9b-6290-46fc-be4a-52fee73881f9")
 	)
 	(wire
 		(pts
-			(xy 59.69 104.14) (xy 59.69 109.22)
+			(xy 40.64 95.885) (xy 43.18 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0ece03-cfbd-44d0-a0e1-b4f8cbe5427c")
+	)
+	(wire
+		(pts
+			(xy 33.02 86.995) (xy 34.29 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c780b64-03f1-40ff-b40c-279a0d7dfffc")
+	)
+	(wire
+		(pts
+			(xy 59.69 116.84) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2629,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 104.14) (xy 40.64 104.14)
+			(xy 36.83 116.84) (xy 40.64 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2500,6 +2646,26 @@
 			(type default)
 		)
 		(uuid "a5dd150e-9999-4482-a6ca-d0f306c7c134")
+	)
+	(wire
+		(pts
+			(xy 53.975 86.995) (xy 55.245 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dd9a75-2beb-4ca0-8008-0eec7e187442")
+	)
+	(wire
+		(pts
+			(xy 55.245 95.885) (xy 61.595 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74a8413-a2d8-4d25-8e04-f6dc83f5a3eb")
 	)
 	(wire
 		(pts
@@ -2553,7 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 99.06) (xy 40.64 99.06)
+			(xy 36.83 111.76) (xy 40.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 114.3) (xy 59.69 113.03)
+			(xy 58.42 127) (xy 59.69 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2789,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 49.53 104.14)
+			(xy 40.64 85.725) (xy 40.64 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6184c08-475e-467c-8efc-24d30af47778")
+	)
+	(wire
+		(pts
+			(xy 48.26 116.84) (xy 49.53 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 104.14) (xy 60.96 104.14)
+			(xy 59.69 116.84) (xy 60.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 104.14) (xy 59.69 104.14)
+			(xy 57.15 116.84) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 114.3) (xy 49.53 114.3)
+			(xy 48.26 127) (xy 49.53 127)
 		)
 		(stroke
 			(width 0)
@@ -2743,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 93.98) (xy 58.42 93.98)
+			(xy 57.15 106.68) (xy 58.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 109.22) (xy 59.69 113.03)
+			(xy 59.69 121.92) (xy 59.69 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 99.06) (xy 49.53 99.06)
+			(xy 48.26 111.76) (xy 49.53 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +3029,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 94.615) (xy 61.595 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e20a0a-4284-4bf4-965d-14479af1b474")
+	)
+	(wire
+		(pts
 			(xy 66.04 33.02) (xy 67.31 31.75)
 		)
 		(stroke
@@ -2863,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 95.25) (xy 59.69 99.06)
+			(xy 59.69 107.95) (xy 59.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5394,6 +5580,17 @@
 		)
 		(uuid "00aff1d2-41bc-4dce-a897-a84e3fb44a8e")
 	)
+	(label "+12V_router"
+		(at 48.26 85.725 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "02d8392e-163d-4786-89c6-f9645e807c55")
+	)
 	(label "+5V_display"
 		(at 168.91 49.53 180)
 		(effects
@@ -5459,7 +5656,7 @@
 		(uuid "c26ab243-a013-4f7d-894f-9c307ca18528")
 	)
 	(label "5V_Buck"
-		(at 36.83 93.98 180)
+		(at 36.83 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5469,7 +5666,7 @@
 		(uuid "ee20c105-59db-473e-a0be-56dedbeb9e59")
 	)
 	(label "Vin_PP"
-		(at 36.83 114.3 180)
+		(at 36.83 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5500,6 +5697,17 @@
 		)
 		(uuid "10a4964c-4600-4db1-a533-d8990c45a6f8")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 64.135 95.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2796c146-d177-481a-ac20-85172a6bf905")
+	)
 	(hierarchical_label "+12V"
 		(shape output)
 		(at 80.01 48.26 0)
@@ -5524,7 +5732,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape output)
-		(at 36.83 109.22 180)
+		(at 36.83 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5557,7 +5765,7 @@
 	)
 	(hierarchical_label "+V_USB"
 		(shape input)
-		(at 36.83 99.06 180)
+		(at 36.83 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5610,6 +5818,17 @@
 		)
 		(uuid "6550fbe8-98f1-4d32-b782-5226ca3415b6")
 	)
+	(hierarchical_label "+12V_Telem"
+		(shape output)
+		(at 62.865 85.725 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a577b585-c5a1-4271-9c8f-0e3d458e1d85")
+	)
 	(hierarchical_label "+12V_IN"
 		(shape input)
 		(at 167.64 40.64 180)
@@ -5623,7 +5842,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 60.96 104.14 0)
+		(at 60.96 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5634,7 +5853,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape output)
-		(at 36.83 104.14 180)
+		(at 36.83 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5667,6 +5886,17 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
+		(at 43.18 95.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de081a18-b9a1-46fc-820b-c2985e98fed8")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
 		(at 167.64 52.07 180)
 		(effects
 			(font
@@ -5678,7 +5908,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 77.47 67.31 0)
+		(at 77.47 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5689,7 +5919,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 44.45 93.98 0)
+		(at 44.45 106.68 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5700,7 +5930,7 @@
 		(dnp no)
 		(uuid "06f188ae-bd91-4a20-ac69-9a5f5b66717d")
 		(property "Reference" "D1"
-			(at 40.894 95.25 0)
+			(at 40.894 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5710,7 +5940,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 40.64 92.71 0)
+			(at 40.64 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5720,7 +5950,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 44.45 93.98 0)
+			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5731,7 +5961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 93.98 0)
+			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,7 +5972,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 44.45 93.98 0)
+			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,7 +5983,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 93.98 0)
+			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5764,7 +5994,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193KRKT-5A"
-			(at 44.45 93.98 0)
+			(at 44.45 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5950,7 +6180,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 93.98 90)
+		(at 53.34 106.68 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5961,7 +6191,7 @@
 		(dnp no)
 		(uuid "2320fa7d-8051-4e77-a3f7-b44e7a7a378b")
 		(property "Reference" "R1"
-			(at 53.34 96.012 90)
+			(at 53.34 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5971,7 +6201,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 53.34 93.98 90)
+			(at 53.34 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5981,7 +6211,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 53.34 92.202 90)
+			(at 53.34 104.902 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5992,7 +6222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 93.98 0)
+			(at 53.34 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6003,7 +6233,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 93.98 0)
+			(at 53.34 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +6260,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 114.3 90)
+		(at 53.34 127 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6041,7 +6271,7 @@
 		(dnp no)
 		(uuid "236682ac-988b-49eb-a690-ff94a1d6e201")
 		(property "Reference" "R5"
-			(at 53.34 116.332 90)
+			(at 53.34 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6051,7 +6281,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 53.34 114.3 90)
+			(at 53.34 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6061,7 +6291,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 53.34 112.522 90)
+			(at 53.34 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,7 +6302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 114.3 0)
+			(at 53.34 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6083,7 +6313,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 114.3 0)
+			(at 53.34 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6110,7 +6340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 109.22 90)
+		(at 53.34 121.92 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6121,7 +6351,7 @@
 		(dnp no)
 		(uuid "25bebaf3-f48e-4292-8b26-e7d4743d63f3")
 		(property "Reference" "R4"
-			(at 53.34 111.252 90)
+			(at 53.34 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6131,7 +6361,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 53.34 109.22 90)
+			(at 53.34 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6141,7 +6371,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 53.34 107.442 90)
+			(at 53.34 120.142 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6152,7 +6382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 109.22 0)
+			(at 53.34 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +6393,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 109.22 0)
+			(at 53.34 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,9 +6419,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 44.45 114.3 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 40.64 90.805 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6199,29 +6428,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "456938f7-7ee8-43aa-b277-a3319cfa9712")
-		(property "Reference" "D5"
-			(at 41.91 115.57 0)
+		(uuid "40f0acad-d47c-4a5e-b651-247f0b57ae99")
+		(property "Reference" "C?"
+			(at 37.465 88.265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 40.64 113.03 0)
+		(property "Value" "100u"
+			(at 34.925 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 44.45 114.3 0)
+		(property "Footprint" ""
+			(at 41.6052 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6463,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 114.3 0)
+			(at 40.64 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5558b85-884f-467c-afda-403a3d31c72a")
+		)
+		(pin "2"
+			(uuid "e800aa27-1f04-4937-9a7e-d480584d3d55")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 44.45 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "456938f7-7ee8-43aa-b277-a3319cfa9712")
+		(property "Reference" "D5"
+			(at 41.91 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 40.64 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +6554,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 44.45 114.3 0)
+			(at 44.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6565,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 114.3 0)
+			(at 44.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6265,7 +6576,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193KRKT-5A"
-			(at 44.45 114.3 0)
+			(at 44.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,6 +7090,87 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 53.975 90.805 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6aab7520-2fa3-49e0-9199-7158d01912d9")
+		(property "Reference" "C?"
+			(at 50.8 88.265 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 48.26 93.345 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.9402 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.975 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87ef9a61-5ea6-4837-8667-2a667c1f8940")
+		)
+		(pin "2"
+			(uuid "36c47284-802d-4ba8-b452-e85c78c095fc")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 41.91 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -6860,7 +7252,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 44.45 99.06 0)
+		(at 44.45 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6871,7 +7263,7 @@
 		(dnp no)
 		(uuid "81f50058-e23f-47d4-b64a-4aed35828caa")
 		(property "Reference" "D2"
-			(at 40.894 100.33 0)
+			(at 40.894 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6881,7 +7273,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 40.64 97.79 0)
+			(at 40.64 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6891,7 +7283,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 44.45 99.06 0)
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6902,7 +7294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 99.06 0)
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +7305,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 44.45 99.06 0)
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +7316,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 99.06 0)
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +7327,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193KRKT-5A"
-			(at 44.45 99.06 0)
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,7 +7354,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 99.06 90)
+		(at 53.34 111.76 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6973,7 +7365,7 @@
 		(dnp no)
 		(uuid "92416951-fa62-49c4-a024-8519931eb7d3")
 		(property "Reference" "R2"
-			(at 53.34 101.092 90)
+			(at 53.34 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6983,7 +7375,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 53.34 99.06 90)
+			(at 53.34 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6993,7 +7385,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 53.34 97.282 90)
+			(at 53.34 109.982 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +7396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 99.06 0)
+			(at 53.34 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +7407,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 99.06 0)
+			(at 53.34 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7116,6 +7508,87 @@
 			(project "MIKA"
 				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 90.805 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a886d981-9e8d-431a-8ceb-0970462b54fe")
+		(property "Reference" "C?"
+			(at 29.845 88.265 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 27.305 93.345 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.9852 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 33.02 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d838541-2fcb-43d4-978c-0647385b7cb6")
+		)
+		(pin "2"
+			(uuid "e6027dbd-160b-4d8a-b51e-66f3b2f9569b")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7359,6 +7832,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 61.595 90.805 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfa594e9-3a39-4ad0-97cf-20bfeea7c7f2")
+		(property "Reference" "C?"
+			(at 58.42 88.265 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 55.88 93.345 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.5602 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 61.595 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 61.595 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca26d0aa-a7fd-4928-80b6-59e4b47ad681")
+		)
+		(pin "2"
+			(uuid "16479b49-892b-44c4-a600-dc24337a6759")
+		)
+		(instances
+			(project "MIKA"
+				(path "/66ea9e27-3ca5-4edd-a0db-1f3995e73e78/63cc9483-26fc-4cfe-88b4-a1a939222ea3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 66.04 50.8 270)
 		(unit 1)
@@ -7438,7 +7992,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 44.45 109.22 0)
+		(at 44.45 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7449,7 +8003,7 @@
 		(dnp no)
 		(uuid "e1a6e4f2-9dfe-4a00-b391-78de3cc6eb56")
 		(property "Reference" "D4"
-			(at 40.894 110.49 0)
+			(at 40.894 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7459,7 +8013,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 40.64 107.95 0)
+			(at 40.64 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7469,7 +8023,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 44.45 109.22 0)
+			(at 44.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7480,7 +8034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 109.22 0)
+			(at 44.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7491,7 +8045,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 44.45 109.22 0)
+			(at 44.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7502,7 +8056,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 109.22 0)
+			(at 44.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,7 +8067,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193KRKT-5A"
-			(at 44.45 109.22 0)
+			(at 44.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +8494,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 104.14 90)
+		(at 53.34 116.84 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7951,7 +8505,7 @@
 		(dnp no)
 		(uuid "f78f66df-3310-423e-a539-3dc541b01941")
 		(property "Reference" "R3"
-			(at 53.34 106.172 90)
+			(at 53.34 118.872 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7961,7 +8515,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 53.34 104.14 90)
+			(at 53.34 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7971,7 +8525,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 53.34 102.362 90)
+			(at 53.34 115.062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +8536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 104.14 0)
+			(at 53.34 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7993,7 +8547,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 104.14 0)
+			(at 53.34 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +8574,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 44.45 104.14 0)
+		(at 44.45 116.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8031,7 +8585,7 @@
 		(dnp no)
 		(uuid "f7ffc389-b5a3-4b32-8a37-6dd2cef484e7")
 		(property "Reference" "D3"
-			(at 40.894 105.41 0)
+			(at 40.894 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8041,7 +8595,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 40.64 102.87 0)
+			(at 40.64 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8051,7 +8605,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 44.45 104.14 0)
+			(at 44.45 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8062,7 +8616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 104.14 0)
+			(at 44.45 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8073,7 +8627,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 44.45 104.14 0)
+			(at 44.45 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8084,7 +8638,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 104.14 0)
+			(at 44.45 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8095,7 +8649,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193KRKT-5A"
-			(at 44.45 104.14 0)
+			(at 44.45 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
